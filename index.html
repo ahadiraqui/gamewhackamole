@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mole-Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Whack a Mole</h1>
+        <div class="scoreboard">
+            Score:<h3 id="score">0</h3>
+            TImer:<h3 id="time-left">30</h3>
+        </div>
+        
+       
+        <div class="gamegrid">
+            <div class="row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="row">
+                <div class="square"></div>
+            <div class="square"></div>
+            <div class="square mole"></div>
+            </div>
+            
+            
+            
+        </div>
+        <div class="buttons">
+            <button id="start" onclick="startgame()">Start</button>
+            <button id="reset" onclick="resetgame()">Reset</button>
+
+        </div>  
+       
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

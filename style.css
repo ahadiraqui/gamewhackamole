@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.square
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.scoreboard
+{
+    display: flex;
+    flex-direction: row;
+}
+#score
+{
+    margin-right: 50px;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#start{
+    padding: 6px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-right: 100px;
+}
+#reset{
+    padding: 6px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.mole{
+    background: url('./imgbin-whac-a-mole-crappy-flappy-moles-android-video-game-android-u2dzpYTG4ZiqWifamFuQajWWD_t.jpg'); */ background: url('./WatsApp\ Image\ 2022-09-27\ at\ 9.52.11\ AM.jpeg');
+    background-position: 50%;
+   background-size: cover;
+}
